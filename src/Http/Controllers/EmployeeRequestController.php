@@ -1,5 +1,6 @@
 <?php
 
+namespace TomatoPHP\TomatoHr\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;

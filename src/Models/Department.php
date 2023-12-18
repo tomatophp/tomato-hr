@@ -3,7 +3,7 @@
 namespace TomatoPHP\TomatoHr\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use TomatoPHP\TomatoOrders\Models\Company;
+use TomatoPHP\TomatoBranches\Models\Company;
 
 /**
  * @property integer $id
