@@ -1,0 +1,40 @@
+{
+    "name": "tomatophp/tomato-hr",
+    "type": "library",
+    "description": "HR management system for TomatoPHP",
+    "keywords": [
+        "php",
+        "laravel",
+        "template"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\TomatoHr\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\TomatoHr\\TomatoHrServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin" : "^1.1",
+        "tomatophp/tomato-wallet": "^1.1",
+        "tomatophp/console-helpers": "^1.1"
+    }
+}
